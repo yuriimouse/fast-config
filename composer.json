@@ -8,18 +8,29 @@
         },
         "description": "The fast universal config with support of `.php`, `.json`, `.xml`, `.yaml` and `.ini` formats.",
         "type": "library",
-        "keywords": ["ini", "config", "json", "xml"],
-         "homepage": "https://github.com/yuriimouse/fast-config",
+        "keywords": [
+                "ini",
+                "config",
+                "json",
+                "xml"
+        ],
+        "homepage": "https://github.com/yuriimouse/fast-config",
         "authors": [
                 {
                         "name": "Yurii Prudius",
                         "email": "hard.work.mouse@gmail.com"
                 }
         ],
+        "repositories": [
+                {
+                        "type": "git",
+                        "url": "https://github.com/yuriimouse/dotini.git",
+                        "reference": "stable"
+                }
+        ],
         "require": {
                 "php": ">=5.6",
-                "yuriimouse/dotini": "^2.0"
-                
+                "yuriimouse/dotini": "*"
         },
         "require-dev": {
                 "phpunit/phpunit": ">=5.0"
